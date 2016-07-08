@@ -112,7 +112,6 @@ public class FileDemo {
 		ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(file));
 		Student student2 = (Student) objectInputStream.readObject();
 		System.out.println(student2);
-		ArrayList<E>
 
 	}
 
