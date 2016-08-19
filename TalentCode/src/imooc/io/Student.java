@@ -8,7 +8,7 @@ public class Student implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 	private String name;
-	private int age;
+	private int age = 7;
 
 	public Student() {
 		super();
@@ -40,6 +40,5 @@ public class Student implements Serializable {
 	public String toString() {
 		return "Student [name=" + name + ", age=" + age + "]";
 	}
-	
 
 }
