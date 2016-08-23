@@ -1,14 +1,26 @@
-package imooc.hibernate;
+package imooc.hibernate.entity;
 
+import java.io.Serializable;
+import java.sql.Blob;
 import java.util.Date;
 
-public class Student {
+public class Student implements Serializable{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int sid;
 	private String sname;
 	private String gender;
 	private Date birthday;
 	private String address;
+	private Blob picture;
+	
+
+	public Student() {
+		super();
+	}
 
 	public Student(int sid, String sname, String gender, Date birthday, String address) {
 		super();
@@ -109,5 +121,14 @@ public class Student {
 	public String toString() {
 		return "Student [sid=" + sid + ", sname=" + sname + ", gender=" + gender + ", birthday=" + birthday + ", address=" + address + "]";
 	}
+
+	public Blob getPicture() {
+		return picture;
+	}
+
+	public void setPicture(Blob picture) {
+		this.picture = picture;
+	}
+
 
 }
