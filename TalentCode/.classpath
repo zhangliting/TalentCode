@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="lib" path="lib/jdom-2.0.5.jar"/>
 	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
 	<classpathentry kind="lib" path="lib/itext-2.1.7.jar"/>
@@ -10,6 +11,16 @@
 	<classpathentry kind="lib" path="lib/commons-digester-2.1.jar"/>
 	<classpathentry kind="lib" path="lib/jasperreports-5.0.1.jar"/>
 	<classpathentry kind="lib" path="lib/jasper-compiler-jdt-5.5.9.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-6.0.3.jar"/>
+	<classpathentry kind="lib" path="hibernate/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="hibernate/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="hibernate/hibernate-commons-annotations-4.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="hibernate/hibernate-core-4.2.4.Final.jar"/>
+	<classpathentry kind="lib" path="hibernate/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="hibernate/javassist-3.15.0-GA.jar"/>
+	<classpathentry kind="lib" path="hibernate/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="hibernate/jboss-transaction-api_1.1_spec-1.0.1.Final.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
