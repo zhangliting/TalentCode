@@ -10,7 +10,7 @@
   <property name="hibernate.show_sql">true</property>
   <property name="hibernate.format_sql">true</property>
   <property name="hibernate.hbm2ddl.auto">create</property>
-  <mapping resource="imooc/hibernate/entity/Student.hbm.xml"/>
-  <mapping resource="imooc/hibernate/entity/Grade.hbm.xml"/>
+  <property name="hibernate.default_schema">dbo</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
  </session-factory>
 </hibernate-configuration>
